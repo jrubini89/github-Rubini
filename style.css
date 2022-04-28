@@ -1,0 +1,172 @@
+/* HOME */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: dream-orphans;
+    src: url(tipografia/dream\ orphans.otf);
+}
+
+@font-face {
+    font-family: dream-orphans-bold;
+    src: url(tipografia/dream\ orphans\ bold.otf);
+}
+
+@font-face {
+    font-family: dream-orphans-italic;
+    src: url(tipografia/dream\ orphans\ italic.otf);
+}
+
+.dina-icono {
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+
+
+.img-bienvenida {
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+}
+
+
+
+.nav-home {
+    font-family: dream-orphans-bold;
+    font-size: 20px;
+    background-color: #9fd8e53e;
+    color: black;
+
+}
+
+
+.ul-nav {
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.li-nav {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.li-nav1 {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.spotify {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+
+.footer {
+    text-decoration: none;
+    list-style-type: none;
+    background-color: #FF5050;
+    color: rgb(4, 208, 208);
+    font-family: dream-orphans-bold;
+    font-size: 20px;
+    margin: 0px 0px 5px 0px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+
+}
+
+.footer-li {
+    margin: 20px 50px 20px 1100px;
+}
+
+.footer-iconos {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 10px 10px 10px;
+}
+
+.foto-lapices {
+    border: solid 1px black;
+    width: 700px;
+    height: 400px;
+    margin: 0 15px 0 20px;
+    padding: 0%;
+
+}
+
+.texto {
+    font-size: 25px;
+    font-family: dream-orphans-bold;
+    border: solid 1px #9FD8E5;
+    padding: 20px 20px 20px 20px;
+    margin-top: 160px;
+
+
+
+}
+
+.portada-home {
+    display: flex;
+    flex-direction: row;
+}
+
+.texto-contenedor {
+    margin: 10px 0 10px 0;
+    padding: 1%;
+}
+
+.cards {
+    background-color: black;
+    color: #9FD8E5;
+    border: 3px #FF5050;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px 0px 0px;
+    padding: 2%;
+    font-size: 20px;
+    font-family: dream-orphans;
+}
+
+
+.card {
+    display: grid;
+    column-gap: repeat (3, 1fr);
+}
+
+
+
+
+/*SOBRE MI*/
+
+
+.imagen-sobre-mi {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 70px ;
+   
+}
+
+.texto-sobre-mi{
+
+    margin: 50px 50px 50px 50px;
+    font-family: dream-orphans;
+    font-size: 18px;
+;
+}
