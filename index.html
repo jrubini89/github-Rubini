@@ -7,12 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="shortcut icon" href="imagenes/Dina-icono.ico" type="image/x-icon">
 </head>
 
 <body class="body">
-    <header>
+
+
+
+
+    <header class="header">
         <nav class="nav-home">
             <ul class="ul-nav">
                 <li class="li-nav">
@@ -38,21 +43,37 @@
         </nav>
     </header>
 
-
-    <div class="animate__animated animate__flipInX">
+    <div class="animate__animated animate__headShake">
         <img src="imagenes/Dina-Inicio.jpg" alt="Dina-Inicio">
     </div>
 
-    <section class="portada-home">
-        <div class="texto-contenedor">
-            <img class="foto-lapices" src="imagenes/fondo-lapices.jpg" alt="fondo-lapices">
-        </div>
+    <div class="slider">
+        <ul class="carrusel">
+            <li>
+                <img src="imagenes/alqo.jpg" alt="proyecto1" class="img-carrusel">
+            </li>
+            <li>
+                <img src="imagenes/alqomm.jpg" alt="protecto2" class="img-carrusel">
+            </li>
+            <li>
+                <img src="imagenes/garage.jpg" alt="proyecto3" class="img-carrusel">
+            </li>
+            <li>
+                <img src="imagenes/mcdonalds.jpg" alt="proyecto4" class="img-carrusel">
+            </li>
+            <li>
+                <img src="imagenes/mcdonaldspc.jpg" alt="proyecto5" class="img-carrusel">
+            </li>
+        </ul>
+    </div>
+
+
+
         <div>
             <p class="texto">Este espacio es para que conozcas mis logros, metas, expectativas, que me gusta, en que
                 puedo mejorar y que es lo que mejor me sale. Es mi hoja de vida, desde mis cursos, capacitaciones hasta
                 mis hobbies. Te invito a navegar y conocerme un poco más.</p>
         </div>
-    </section>
 
     <iframe class="spotify" style="border-radius:12px"
         src="https://open.spotify.com/embed/playlist/5naV9k9ph405v4sCQJqguB?utm_source=generator" width="100%"
@@ -62,8 +83,8 @@
 
     <section class="cards">
         <div class="animate__animated animate__pulse">Proyectos</div>
-        <div class="animate__pulse">Certificados</div>
-        <div class="animate__pulse">Mi CV</div>
+        <div class="animate__animated animate__pulse">Certificados</div>
+        <div class="animate__animated animate__pulse">Mi CV</div>
     </section>
 
     <footer class="footer">
@@ -87,7 +108,10 @@
         </div>
 
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
