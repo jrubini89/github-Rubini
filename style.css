@@ -94,17 +94,11 @@
 
 .footer-li {
     margin: 20px 50px 20px 1100px;
-transform: scale(2);
+
 }
 
-.footer-sobre-mi{
-    border-radius: 6px;
-    width: 60px;
-    height: 40px;
-    margin: 50px auto;
-}
 
-.footer-li:hover
+
 
 .footer-iconos {
     flex-direction: row;
@@ -152,7 +146,10 @@ transform: scale(2);
     padding: 2%;
     font-size: 20px;
     font-family: dream-orphans;
+    transform: scale(1);
 }
+
+.card:hover
 
 
 .card {
