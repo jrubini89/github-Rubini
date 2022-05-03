@@ -34,6 +34,9 @@
 .carrusel {
     list-style: none;
     width: 100%;
+    -webkit-box-shadow: 10px 10px 28px -3px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 10px 10px 28px -3px rgba(0, 0, 0, 0.32);
+    box-shadow: 10px 10px 28px -3px rgba(0, 0, 0, 0.32);
 }
 
 .carrusel {
@@ -105,11 +108,10 @@
 }
 
 .li-nav1 {
-    text-decoration: none;
-    list-style-type: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 
 }
 
@@ -207,7 +209,9 @@
 @media screen (max-width:450px) {
 
 
+    
 }
+
 
 /*Tablet*/
 
@@ -216,11 +220,6 @@
 
 }
 
-/*Desktop*/
-@media screen (min-width:961px) {
-
-    
-}
 
 
 /*SOBRE MI*/
